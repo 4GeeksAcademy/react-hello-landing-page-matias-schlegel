@@ -10,3 +10,39 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.cards1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.card-body {
+    padding: 0%;
+}
+
+.forPadding {
+    padding: 8%;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #2a2a2b;
+    color: rgb(214, 212, 209);
+}
+
+p#text1 {
+    margin-bottom: 0 !important;
+    margin-top: 1rem;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #e0e0e0;
+    background-color: #f0f0f0;
+    border-radius: 2%;
+    padding: 1rem;
+}
