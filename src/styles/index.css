@@ -10,11 +10,14 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
 .cards1 {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
 }
 
 .card-body {

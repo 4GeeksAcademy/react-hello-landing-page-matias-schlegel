@@ -12,9 +12,9 @@ const Home = () => {
 	return (
 		<React.Fragment>
 			<Navbar />
-			<Jumbotron />
 			<div className="container">
-				<div className="cards1 vh-100">
+				<Jumbotron />
+				<div className="cards1 mx-5">
 					<Cards img={"https://s3.amazonaws.com/cdn.wp.m4ecnet/wp-content/uploads/2018/01/16095118/Depositphotos_3667865_m-2015-compressor.jpg"}
 						title={"Card title"}
 						text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor."}
@@ -35,9 +35,9 @@ const Home = () => {
 						text={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor."}
 						button={"Find Out More!"} />
 				</div>
-				<div className="text1">
-					<Finaltext />
-				</div>
+			</div>
+			<div className="text1">
+				<Finaltext />
 			</div>
 		</React.Fragment>
 	);
